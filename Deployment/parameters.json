@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "storagevm"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_A1"
+        },
+        "adminUsername": {
+            "value": "daniel"
+        },
+        "virtualNetworkName": {
+            "value": "storagevm-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "storagevm797"
+        },
+        "networkSecurityGroupName": {
+            "value": "storagevm-nsg"
+        },
+        "adminPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA0ArXYRwaP3oX8FmTkpaLJk2Cby85QdVLWfjX5Vo3Vcxa/LDJDwQNqk7HsmD+uoG5HrZ1NwjmlSbaBtPd+v1JlPDP8eV/mQFiWHD21O70DKJZJs54IUWfbeQ7cAFwTnnED0RTGuRFgzHyXUGkuINquejnjdB3Fgl1sqQknDIGA8+eZfJBQq//GOGvj150Ocn0iFvOtd3IsuqBxtW+Ir4fYbf/gK46GI9Go1+yf/31+CWyta5skfaBxH7M69IFsPLY3chBlpuPgBjOaw6UmIwoEaXVm/8iiVI8u9B4An15UoUxfmdJTC9kgbF3DnDtLhurS+IG7Hoc9cBJKBOk8L+REw=="
+        },
+        "storageAccountName": {
+            "value": "storagevmdisks984"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "storagevm-pip"
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
