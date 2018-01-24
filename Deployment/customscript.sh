@@ -63,6 +63,9 @@ apt install haproxy -y
 # copy config file for haproxy
 cp haproxy.cfg /etc/haproxy/
 
+# enable haproxy for autostart
+systemctl enable haproxy
+
 # start haproxy
 service haproxy start
 
