@@ -126,10 +126,10 @@
                         "value": "westeurope"
                     },
                     "fileUris": {
-                        "value": []
+                        "value": ["https://raw.githubusercontent.com/kreuzhofer/resilio_azure_quickstart_template/master/Deployment/customscript.sh"]
                     },
                     "commandToExecute": {
-                        "value": "sh script.sh"
+                        "value": "sh customscript.sh"
                     }
                 }
             },
